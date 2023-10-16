@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12096287789",
+    "project_id": "brothergps",
+    "storage_bucket": "brothergps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12096287789:android:0b3af9281836524eb5b4a4",
+        "android_client_info": {
+          "package_name": "ma.brothergps.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO1RtWslt5-gOQC-cgU-9WbVjQ4vo54rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
