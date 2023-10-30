@@ -49,8 +49,8 @@ class Device {
   final double distanceKm;
   final double odometerKm;
   final String city;
-  final int heading;
-  final int speedKph;
+  final num heading;
+  final num speedKph;
   final int index;
   final int colorR;
   final int colorG;
@@ -64,7 +64,7 @@ class Device {
   final String equipmentType;
   final String deviceIcon;
   final double batteryLevel;
-  final int signalStrength;
+  final num signalStrength;
 
   factory Device.fromMap(Map<String, dynamic> json) {
       return Device(
