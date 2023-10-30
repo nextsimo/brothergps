@@ -67,7 +67,6 @@ class Device {
   final int signalStrength;
 
   factory Device.fromMap(Map<String, dynamic> json) {
-    try {
       return Device(
         description: json["description"],
         deviceId: json["DeviceID"],
@@ -95,42 +94,7 @@ class Device {
         batteryLevel: (json['batteryLevel'] ?? 0).toDouble(),
         signalStrength: json['signalStrength'] ?? 0,
       );
-    } catch (e) {
-      log("--------- >Error parsing device: $e");
-      // print all int fields
-      json.forEach((key, value) {
-        if (value == null) {
-          log("--------- >$key: $value");
-        }
-      });
-      return Device(
-        description: '',
-        deviceId: '',
-        dateTime: DateTime.now(),
-        latitude: 0,
-        longitude: 0,
-        address: '',
-        distanceKm: 0,
-        odometerKm: 0,
-        city: '',
-        heading: 0,
-        speedKph: 0,
-        index: 0,
-        colorR: 0,
-        colorG: 0,
-        colorB: 0,
-        statut: '',
-        markerPng: '',
-        markerText: '',
-        phone1: '',
-        phone2: '',
-        markerTextPng: '',
-        equipmentType: '',
-        deviceIcon: '',
-        batteryLevel: 0,
-        signalStrength: 0,
-      );
-    }
+
   }
 
   Map<String, dynamic> toMap() => {
