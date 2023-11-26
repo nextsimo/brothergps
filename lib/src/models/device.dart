@@ -3,7 +3,6 @@
 //     final device = deviceFromMap(jsonString);
 
 import 'dart:convert';
-import 'dart:developer';
 
 List<Device> deviceFromMap(String str) =>
     List<Device>.from(json.decode(str).map((x) => Device.fromMap(x)));

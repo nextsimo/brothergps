@@ -41,7 +41,7 @@ dependencies:
   get_it: ^7.2.0
   google_fonts: ^4.0.3
   google_maps_cluster_manager: ^3.0.0+1
-  google_maps_flutter: ^2.2.3
+  google_maps_flutter: ^2.5.0
   grouped_list: ^5.1.2
   http: ^0.13.5
   image: ^4.0.15
@@ -70,8 +70,8 @@ dependencies:
   wave: ^0.2.2
 
 dev_dependencies:
-  flutter_lints: ^2.0.1
   flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^2.0.1
   flutter_test:
     sdk: flutter
 
@@ -81,7 +81,6 @@ flutter_launcher_icons:
   image_path: "assets/logo.png"
   image_path_ios: "assets/logo.jpg"
   min_sdk_android: 21 # android min sdk min:16, default 21
-
 
 flutter:
   uses-material-design: true
