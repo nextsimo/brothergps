@@ -46,12 +46,9 @@ class NewGpsApp extends StatelessWidget {
           splitScreenMode: true,
           builder: (context, __) {
             return MaterialApp(
-              home: const MapSample(),
-              //initialRoute: '/splash',
+              initialRoute: '/splash',
               routes: {
                 '/splash': (context) => const SplashView(),
-                // When navigating to the "/" route, build the FirstScreen widget.
-                //'/': (context) => const L(),
                 '/navigation': (context) => CustomNavigationView(),
                 '/login': (context) => const LoginView(),
                 // When navigating to the "/second" route, build the SecondScreen widget.

@@ -1,4 +1,4 @@
-package ma.brothergps.app
+package app.brothergps.mobile
 
 import io.flutter.embedding.android.FlutterActivity
 

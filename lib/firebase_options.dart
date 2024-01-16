@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBO1RtWslt5-gOQC-cgU-9WbVjQ4vo54rM',
-    appId: '1:12096287789:android:0b3af9281836524eb5b4a4',
-    messagingSenderId: '12096287789',
-    projectId: 'brothergps',
-    storageBucket: 'brothergps.appspot.com',
+    apiKey: 'AIzaSyDl90VFKe2RRoXEfbIWB4bAwY3jzDRqh1A',
+    appId: '1:901721678462:android:7e48c637bc03c390c76e2f',
+    messagingSenderId: '901721678462',
+    projectId: 'brothergps-b1544',
+    storageBucket: 'brothergps-b1544.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD8eMr0_hQ7lq2WpikajzRMe1RjfzerfXA',
-    appId: '1:12096287789:ios:a5d22ed89146f972b5b4a4',
-    messagingSenderId: '12096287789',
-    projectId: 'brothergps',
-    storageBucket: 'brothergps.appspot.com',
-    iosBundleId: 'ma.newgps.mobileApp',
+    apiKey: 'AIzaSyBmbZA_5F0Rq36Cy7ZaPRFQnZ5Xjv_kL8Y',
+    appId: '1:901721678462:ios:c9779d030cb668afc76e2f',
+    messagingSenderId: '901721678462',
+    projectId: 'brothergps-b1544',
+    storageBucket: 'brothergps-b1544.appspot.com',
+    iosBundleId: 'app.brothergps.mobile',
   );
 }

@@ -177,7 +177,7 @@ class DeviceProvider with ChangeNotifier {
     }
   }
 
-  late TextEditingController autoSearchController;
+   TextEditingController autoSearchController = TextEditingController();
 
   void handleSelectDevice() {
     autoSearchController.text = selectedDevice?.description ?? '';
@@ -188,6 +188,10 @@ class DeviceProvider with ChangeNotifier {
     _loading = true;
     _fetchDevicesIconsList();
     await fetchDevices(init: init);
+    if( devices.isEmpty  ){
+      _loading = false;
+      return;
+    }
     selectedDevice = devices.first;
     autoSearchController =
         TextEditingController(text: selectedDevice!.description);
@@ -270,7 +274,6 @@ class DeviceProvider with ChangeNotifier {
           case 2:
             return d1.speedKph.compareTo(d2.speedKph);
           case 3:
-            //return d1.maxSpeed!.compareTo(d2.maxSpeed ?? 0);
             return 1;
           case 4:
             return d1.distanceKm.compareTo(d2.distanceKm);
