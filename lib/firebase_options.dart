@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDl90VFKe2RRoXEfbIWB4bAwY3jzDRqh1A',
-    appId: '1:901721678462:android:7e48c637bc03c390c76e2f',
+    appId: '1:901721678462:android:b0056e8bba7b2f29c76e2f',
     messagingSenderId: '901721678462',
     projectId: 'brothergps-b1544',
     storageBucket: 'brothergps-b1544.appspot.com',

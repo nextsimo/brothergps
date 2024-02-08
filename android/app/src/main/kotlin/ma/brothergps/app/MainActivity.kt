@@ -1,4 +1,4 @@
-package ma.newgps.tracking_app
+package ma.brothergps.app
 
 import io.flutter.embedding.android.FlutterActivity
 

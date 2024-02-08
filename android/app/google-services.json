@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:901721678462:android:7e48c637bc03c390c76e2f",
+        "mobilesdk_app_id": "1:901721678462:android:b0056e8bba7b2f29c76e2f",
         "android_client_info": {
-          "package_name": "app.brothergps.mobile"
+          "package_name": "ma.brothergps.app"
         }
       },
       "oauth_client": [],

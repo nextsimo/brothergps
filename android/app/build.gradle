@@ -50,7 +50,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "app.brothergps.mobile"
+        applicationId "ma.brothergps.app"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode flutterVersionCode.toInteger()
