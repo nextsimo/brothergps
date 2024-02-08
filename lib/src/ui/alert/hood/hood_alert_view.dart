@@ -36,7 +36,9 @@ class HoodAlertView extends StatelessWidget {
                     children: [
                       const SizedBox(height: 10),
                       const BuildLabel(
-                          label: 'capot', icon: FontAwesomeIcons.carCrash),
+                        label: 'capot',
+                        icon: FontAwesomeIcons.carBurst,
+                      ),
                       const SizedBox(height: 20),
                       if (provider.hoodAlertSettings != null)
                         _buildStatusLabel(context, provider),
@@ -57,7 +59,6 @@ class HoodAlertView extends StatelessWidget {
   }
 
   _buildStatusLabel(BuildContext context, HoodAlertViewProvider provider) {
-
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [

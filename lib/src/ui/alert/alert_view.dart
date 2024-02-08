@@ -41,7 +41,7 @@ class AlertView extends StatelessWidget {
       inDev: false,
     ),
     _AlertItem(
-      icon: FontAwesomeIcons.carCrash,
+      icon: FontAwesomeIcons.carBurst,
       label: 'Capot',
       page: '/hood',
       inDev: false,
@@ -67,7 +67,7 @@ class AlertView extends StatelessWidget {
         inDev: false), */
 
     _AlertItem(
-        icon: FontAwesomeIcons.thermometerHalf,
+        icon: FontAwesomeIcons.temperatureHalf,
         label: 'Température',
         page: '/temp',
         inDev: false),

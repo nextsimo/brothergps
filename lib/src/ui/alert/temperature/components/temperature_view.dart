@@ -32,7 +32,7 @@ class TemperatureBleView extends StatelessWidget {
                 children: [
                   SizedBox(height: 10),
                   BuildLabel(
-                    icon: FontAwesomeIcons.thermometerHalf,
+                    icon: FontAwesomeIcons.temperatureHalf,
                     label: 'température',
                   ),
                   SizedBox(height: 10),

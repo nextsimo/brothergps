@@ -34,20 +34,15 @@ class _FloatingGroupWindowInfoState extends State<FloatingGroupWindowInfo> {
   @override
   Widget build(BuildContext context) {
     Orientation orientation = MediaQuery.of(context).orientation;
-    return WillPopScope(
-        onWillPop: () async {
-          Navigator.of(context).pop();
-          return false;
-        },
-        child: orientation == Orientation.portrait
-            ? _FloatingGroupInfoWindowInfoPortrait(
-                device: widget.device,
-                showCallDriver: widget.showCallDriver,
-                showOnOffDevice: widget.showOnOffDevice)
-            : _FloatingGroupInfoWindowInfoLandscape(
-                device: widget.device,
-                showCallDriver: widget.showCallDriver,
-                showOnOffDevice: widget.showOnOffDevice));
+    return orientation == Orientation.portrait
+        ? _FloatingGroupInfoWindowInfoPortrait(
+            device: widget.device,
+            showCallDriver: widget.showCallDriver,
+            showOnOffDevice: widget.showOnOffDevice)
+        : _FloatingGroupInfoWindowInfoLandscape(
+            device: widget.device,
+            showCallDriver: widget.showCallDriver,
+            showOnOffDevice: widget.showOnOffDevice);
   }
 }
 

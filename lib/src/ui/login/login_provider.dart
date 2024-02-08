@@ -10,7 +10,7 @@ import 'package:provider/provider.dart';
 class LoginProvider with ChangeNotifier {
   final TextEditingController compteController = TextEditingController();
   final TextEditingController passwordController = TextEditingController(
-    text: '6NBp.t46kjvW2Ky0'
+    //text: '6NBp.t46kjvW2Ky0'
   );
   final TextEditingController newPasswordController = TextEditingController();
   final TextEditingController underCompteController = TextEditingController();
