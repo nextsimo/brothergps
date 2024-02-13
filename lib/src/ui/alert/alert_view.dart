@@ -23,7 +23,7 @@ class AlertView extends StatelessWidget {
         inDev: false), */
     _AlertItem(
         icon: FontAwesomeIcons.plug,
-        label: 'Alimentation boitier',
+        label: 'Alimentation',
         page: '/battery',
         inDev: false),
     _AlertItem(
@@ -132,8 +132,8 @@ class AlertView extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(AppConsts.outsidePadding,
                     AppConsts.outsidePadding, AppConsts.outsidePadding, 150),
                 gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                  maxCrossAxisExtent: 130,
-                  childAspectRatio: 1.26,
+                  maxCrossAxisExtent: 140,
+                  childAspectRatio: 1.2,
                   crossAxisSpacing: AppConsts.outsidePadding,
                   mainAxisSpacing: AppConsts.outsidePadding,
                 ),
