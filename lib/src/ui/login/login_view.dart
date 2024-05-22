@@ -19,14 +19,8 @@ class LoginView extends StatelessWidget {
     return UpgradeAlert(
       upgrader: Upgrader(
         debugDisplayOnce: false,
-        canDismissDialog: false,
         debugDisplayAlways: false,
-        dialogStyle: UpgradeDialogStyle.material,
         messages: UpgraderMessages(code: 'fr'),
-        shouldPopScope: () => false,
-        onLater: () => false,
-        onIgnore: () => false,
-        showReleaseNotes: true,
       ),
       //debugAlwaysUpgrade: true,
       child: Scaffold(

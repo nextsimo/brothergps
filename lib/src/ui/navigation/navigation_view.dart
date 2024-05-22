@@ -35,16 +35,8 @@ class CustomNavigationView extends StatelessWidget {
         return UpgradeAlert(
           upgrader: Upgrader(
             debugDisplayOnce: false,
-            canDismissDialog: false,
-            dialogStyle: UpgradeDialogStyle.material,
             messages: UpgraderMessages(code: 'fr'),
             debugDisplayAlways: false,
-            shouldPopScope: () => false,
-            onLater: () => false,
-            onIgnore: () => false,
-            showReleaseNotes: true,
-            showIgnore: false,
-            showLater: false,
           ),
     /*             messages: UpgraderMessages(code: 'fr'),
           countryCode: 'MA',

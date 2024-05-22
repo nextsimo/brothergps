@@ -1,4 +1,3 @@
-import 'package:empty_widget/empty_widget.dart';
 import 'package:flutter/material.dart';
 
 class MyEmptyWidget extends StatelessWidget {
@@ -6,21 +5,13 @@ class MyEmptyWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
+    return const Material(
       child: Center(
-        child: EmptyWidget(
-          image: null,
-          packageImage: PackageImage.Image_3,
-          title: 'Aucune configuration',
-          subTitle: 'Veuillez ajouter une configuration',
-          titleTextStyle: const TextStyle(
-            fontSize: 22,
-            color: Color(0xff9da9c7),
-            fontWeight: FontWeight.w500,
-          ),
-          subtitleTextStyle: const TextStyle(
-            fontSize: 14,
-            color: Color(0xffabb8d6),
+        child: Text(
+          'No data available',
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.black,
           ),
         ),
       ),

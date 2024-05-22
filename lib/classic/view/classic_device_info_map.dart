@@ -65,9 +65,8 @@ class ClassicDeviceInfoMap extends StatelessWidget {
                         width: 60.0,
                         height: 60.0,
                         rotate: true,
-                        anchorPos: AnchorPos.align(AnchorAlign.center),
                         point: deviceInfo.points.last,
-                        builder: (ctx) => Column(
+                        child:Column(
                           children: [
                             Text(
                               '${deviceInfo.maxSpeed} km/h',
@@ -119,9 +118,8 @@ class ClassicDeviceInfoMap extends StatelessWidget {
       width: 30.0,
       height: 30.0,
       rotate: true,
-      anchorPos: AnchorPos.align(AnchorAlign.center),
       point: pos,
-      builder: (ctx) => Container(
+      child:Container(
         decoration: BoxDecoration(
           color: color.withOpacity(0.4),
           shape: BoxShape.circle,
